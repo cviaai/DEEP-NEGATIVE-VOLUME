@@ -34,7 +34,6 @@ mlxtend==0.14.0
 mpld3==0.3
 natsort==6.2.0
 NiftyNet==0.5.0
-nltk==3.4
 nmslib==1.7.3.6
 numpy-stl==2.10.1
 pandas-profiling==1.4.1
@@ -60,7 +59,6 @@ sklearn==0.0
 skorch==0.4.0
 tables==3.4.4
 tensorboardX==1.4
-tensorflow-gpu==1.12.0
 tifffile==2020.2.16
 torchsummary==1.5.1
 trimesh==3.2.36
