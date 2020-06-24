@@ -59,7 +59,7 @@ needs MC and TB masks.
 </p>
 <p >
 <em>Fig. 2. Rendered regions of the TB (gray) featuring manually annotated negative volume (yellow),
-and a machine-generated one (green). Views: (a) axial, from bottom (b) same, tilted.
+and a machine-generated one (green). Views: (a) axial, from bottom (b) same, tilted.</em>
 </p>
   
 ## Citing
