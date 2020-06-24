@@ -9,7 +9,7 @@ We propose a new intuitive hybrid strategy for medical 3D image segmentation, en
 <p >
 <em>Fig. 1. End-to-end pipeline for Deep Negative Volume Segmentation. As an example, we take the most complex object in a human body - temporomandibular joint (TMJ), consisting of the mandibular condyle (MC) and the temporal bone (TB).
 Segmentation of MC and TB are shown as step A and step B, respectively. Step C and step D represent classical image
-enhancement of TB and 3D reconstruction of both bones. The “inflation/clipping” block represented by Step E.
+enhancement of TB and 3D reconstruction of both bones. The “inflation/clipping” block represented by Step E.</em>
 </p>
 
 ## Requirements
@@ -64,7 +64,7 @@ and a machine-generated one (green). Views: (a) axial, from bottom (b) same, til
   
 ## Citing
 If you use this package in your publications or in other work, please cite it as follows:
-```Shell
+```
 @misc{belikova2020deep,
     title={Deep Negative Volume Segmentation},
     author={Kristina Belikova and Oleg Rogov and Aleksandr Rybakov and Maxim V. Maslov and Dmitry V. Dylov},
