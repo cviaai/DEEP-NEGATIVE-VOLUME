@@ -61,3 +61,20 @@ needs MC and TB masks.
 <em>Fig. 2. Rendered regions of the TB (gray) featuring manually annotated negative volume (yellow),
 and a machine-generated one (green). Views: (a) axial, from bottom (b) same, tilted.
 </p>
+  
+## Citing
+If you use this package in your publications or in other work, please cite it as follows:
+```
+@misc{belikova2020deep,
+    title={Deep Negative Volume Segmentation},
+    author={Kristina Belikova and Oleg Rogov and Aleksandr Rybakov and Maxim V. Maslov and Dmitry V. Dylov},
+    year={2020},
+    eprint={2006.12430},
+    archivePrefix={arXiv},
+    primaryClass={eess.IV}
+}
+```
+## Maintainers
+Kristina Belikova (Main contributor) @krisbell
+
+Oleg Rogov @olegrgv
