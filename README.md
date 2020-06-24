@@ -64,7 +64,7 @@ and a machine-generated one (green). Views: (a) axial, from bottom (b) same, til
   
 ## Citing
 If you use this package in your publications or in other work, please cite it as follows:
-```
+```Shell
 @misc{belikova2020deep,
     title={Deep Negative Volume Segmentation},
     author={Kristina Belikova and Oleg Rogov and Aleksandr Rybakov and Maxim V. Maslov and Dmitry V. Dylov},
