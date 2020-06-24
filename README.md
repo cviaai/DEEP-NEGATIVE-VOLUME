@@ -1,3 +1,5 @@
+![License](https://img.shields.io/github/license/analysiscenter/pydens.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
 # Deep Negative Volume Segmentation
 
 We propose a new intuitive hybrid strategy for medical 3D image segmentation, entailing new manual annotation pipeline, localization-based image enhancement, deep learning based segmentation, and surface mesh inflation. The framework extracts “negative volumes” in complex anatomical structures in an end-to-end manner, which we validated on a head-CT dataset by segmenting the most complex human joint (the TMJ) together with maxillofacial experts.
