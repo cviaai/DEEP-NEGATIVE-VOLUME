@@ -3,8 +3,8 @@ import subprocess
 import sys
 import tempfile
 
-pythonPath = "C:\\Users\\O.Rogov\\AppData\\Local\\Continuum\\anaconda3"
-blenderPath = "C:\\Program Files\\Blender Foundation\\Blender 2.81"
+pythonPath = "python_path"
+blenderPath = "blender_path"
 kernelFileArgs = sys.argv[1:] # jupyter passes important args defined in kernelspec
 
 kernelPluginScript = f"""
