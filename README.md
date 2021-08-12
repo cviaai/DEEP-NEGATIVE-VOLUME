@@ -1,8 +1,9 @@
 [![License](https://img.shields.io/github/license/analysiscenter/pydens.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
 # Deep Negative Volume Segmentation
+This is the official repository of the paper entitled "Deep negative volume segmentation", Nature Scientific Reports 11, 16292 (2021). https://doi.org/10.1038/s41598-021-95526-1
 
-We propose a new intuitive hybrid strategy for medical 3D image segmentation, entailing new manual annotation pipeline, localization-based image enhancement, deep learning based segmentation, and surface mesh inflation. The framework extracts “negative volumes” in complex anatomical structures in an end-to-end manner, which we validated on a head-CT dataset by segmenting the most complex human joint (the TMJ) together with maxillofacial experts.
+Clinical examination of three-dimensional image data of compound anatomical objects, such as complex joints, remains a tedious process, demanding the time and the expertise of physicians. For instance, automation of the segmentation task of the TMJ (temporomandibular joint) has been hindered by its compound three-dimensional shape, multiple overlaid textures, an abundance of surrounding irregularities in the skull, and a virtually omnidirectional range of the jaw’s motion—all of which extend the manual annotation process to more than an hour per patient. To address the challenge, we invent a new workflow for the 3D segmentation task: namely, we propose to segment empty spaces between all the tissues surrounding the object—the so-called negative volume segmentation. Our approach is an end-to-end pipeline that comprises a V-Net for bone segmentation, a 3D volume construction by inflation of the reconstructed bone head in all directions along the normal vector to its mesh faces. Eventually confined within the skull bones, the inflated surface occupies the entire “negative” space in the joint, effectively providing a geometrical/topological metric of the joint’s health. We validate the idea on the CT scans in a 50-patient dataset, annotated by experts in maxillofacial medicine, quantitatively compare the asymmetry given the left and the right negative volumes, and automate the entire framework for clinical adoption.
 
 <p align="center">
 <img src="./img/pipeline.PNG" alt>
@@ -67,13 +68,16 @@ and a machine-generated one (green). Views: (a) axial, from bottom (b) same, til
 ## Citing
 If you use this package in your publications or in other work, please cite it as follows:
 ```
-@misc{belikova2020deep,
-    title={Deep Negative Volume Segmentation},
-    author={Kristina Belikova and Oleg Rogov and Aleksandr Rybakov and Maxim V. Maslov and Dmitry V. Dylov},
-    year={2020},
-    eprint={2006.12430},
-    archivePrefix={arXiv},
-    primaryClass={eess.IV}
+@Article{Belikova2021,
+  author    = {Kristina Belikova and Oleg Y. Rogov and Aleksandr Rybakov and Maxim V. Maslov and Dmitry V. Dylov},
+  title     = {Deep negative volume segmentation},
+  journal   = {Scientific Reports},
+  year      = {2021},
+  volume    = {11},
+  number    = {1},
+  month     = {aug},
+  doi       = {10.1038/s41598-021-95526-1},
+  publisher = {Springer Science and Business Media {LLC}},
 }
 ```
 ## Maintainers
