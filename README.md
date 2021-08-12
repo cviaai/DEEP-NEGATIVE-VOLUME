@@ -1,5 +1,8 @@
 [![License](https://img.shields.io/github/license/analysiscenter/pydens.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![Python](https://img.shields.io/badge/python-3.6-blue.svg)](https://python.org)
+[![Python](https://img.shields.io/badge/python-3.7-blue.svg)](https://python.org)
+[![Python](https://img.shields.io/badge/pytorch-1.6.0-red)](https://pytorch.org)
+[![Python](https://img.shields.io/badge/paper-published-red)](https://www.nature.com/articles/s41598-021-95526-1)
+
 # Deep Negative Volume Segmentation
 This is the official repository of the paper entitled "Deep negative volume segmentation", Nature Scientific Reports 11, 16292 (2021). https://doi.org/10.1038/s41598-021-95526-1
 
