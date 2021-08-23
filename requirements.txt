@@ -20,7 +20,7 @@ imbalanced-learn==0.4.3
 isanlp==0.0.5
 jupyter==1.0.0
 jupyter-contrib-nbextensions==0.2.4
-jupyterlab==0.35.4
+jupyterlab==1.2.21
 kaggle==1.5.4
 keras-vis==0.4.1
 kiwisolver==1.0.1
