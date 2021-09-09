@@ -59,15 +59,143 @@ results. Notice that the whole-object 3D segmentation of the manually annotated 
 need more data to work properly, justifying the development of our automated pipeline which just
 needs MC and TB masks.
 
-<p align="center">
-<img src="./img/results.PNG" alt>
+<div class="c-table-scroll-wrapper__content c-table-scroll-wrapper__fade--transparent" data-component-scroll-wrapper=""><table class="data last-table"><thead class="c-article-table-head"><tr><th class="u-text-left ">
+                          Obj.
+                        </th><th class="u-text-left ">
+                          Score
+                        </th><th class="u-text-left ">
+                          3D U-Net
+                        </th><th class="u-text-left ">
+                          3D U-Net+Att.
+                        </th><th class="u-text-left ">
+                          V-Net CE
+                        </th><th class="u-text-left ">
+                          V-Net D
+                        </th><th class="u-text-left ">
+                          V-Net D+CE
+                        </th></tr></thead><tbody><tr><td rowspan="3" class="u-text-left ">
+                          MC
+                        </td><td class="u-text-left ">
+                          DICE
+                        </td><td class="u-text-char ">
+                          91.4&nbsp;±&nbsp;5.3
+                        </td><td class="u-text-char ">
+                          89.8&nbsp;±&nbsp;8.2
+                        </td><td class="u-text-char ">
+                          90.9&nbsp;±&nbsp;4.5
+                        </td><td class="u-text-char ">
+                          90.9&nbsp;±&nbsp;6.3
+                        </td><td class="u-text-char ">
+                          91.4&nbsp;±&nbsp;4.8
+                        </td></tr><tr><td class="u-text-left ">
+                          CE
+                        </td><td class="u-text-char ">
+                          0.320&nbsp;±&nbsp;0.003
+                        </td><td class="u-text-char ">
+                          0.320&nbsp;±&nbsp;0.005
+                        </td><td class="u-text-char ">
+                          0.201&nbsp;±&nbsp;0.075
+                        </td><td class="u-text-char ">
+                          0.175&nbsp;±&nbsp;0.024
+                        </td><td class="u-text-char ">
+                          0.154&nbsp;±&nbsp;0.053
+                        </td></tr><tr><td class="u-text-left ">
+                          HD
+                        </td><td class="u-text-char ">
+                          14.7&nbsp;±&nbsp;20.8
+                        </td><td class="u-text-char ">
+                          15.2&nbsp;±&nbsp;21.6
+                        </td><td class="u-text-char ">
+                          11.9&nbsp;±&nbsp;15.7
+                        </td><td class="u-text-char ">
+                          11.5&nbsp;±&nbsp;20.1
+                        </td><td class="u-text-char ">
+                          10.5&nbsp;±&nbsp;21.2
+                        </td></tr><tr><td rowspan="3" class="u-text-left ">
+                          TB
+                        </td><td class="u-text-left ">
+                          DICE
+                        </td><td class="u-text-char ">
+                          75.5&nbsp;±&nbsp;8.8
+                        </td><td class="u-text-char ">
+                          75.8&nbsp;±&nbsp;8.4
+                        </td><td class="u-text-char ">
+                          75.9&nbsp;±&nbsp;6.9
+                        </td><td class="u-text-char ">
+                          76.7&nbsp;±&nbsp;6.8
+                        </td><td class="u-text-char ">
+                          76.3&nbsp;±&nbsp;7.2
+                        </td></tr><tr><td class="u-text-left ">
+                          CE
+                        </td><td class="u-text-char ">
+                          0.463&nbsp;±&nbsp;0.043
+                        </td><td class="u-text-char ">
+                          0.462&nbsp;±&nbsp;0.035
+                        </td><td class="u-text-char ">
+                          0.383&nbsp;±&nbsp;0.088
+                        </td><td class="u-text-char ">
+                          0.396&nbsp;±&nbsp;0.093
+                        </td><td class="u-text-char ">
+                          0.416&nbsp;±&nbsp;0.100
+                        </td></tr><tr><td class="u-text-left ">
+                          HD
+                        </td><td class="u-text-char ">
+                          29.8&nbsp;±&nbsp;11.5
+                        </td><td class="u-text-char ">
+                          29.9&nbsp;±&nbsp;11.3
+                        </td><td class="u-text-char ">
+                          27.9&nbsp;±&nbsp;11.5
+                        </td><td class="u-text-char ">
+                          28.3&nbsp;±&nbsp;10.7
+                        </td><td class="u-text-char ">
+                          27.6&nbsp;±&nbsp;10.9
+                        </td></tr><tr><td rowspan="3" class="u-text-left ">
+                          NV
+                        </td><td class="u-text-left ">
+                          DICE
+                        </td><td class="u-text-char ">
+                          78.0&nbsp;±&nbsp;10.6
+                        </td><td class="u-text-char ">
+                          77.8&nbsp;±&nbsp;9.6
+                        </td><td class="u-text-char ">
+                          78.1&nbsp;±&nbsp;8.8
+                        </td><td class="u-text-char ">
+                          78.2&nbsp;±&nbsp;8.3
+                        </td><td class="u-text-char ">
+                          77.7&nbsp;±&nbsp;7.7
+                        </td></tr><tr><td class="u-text-left ">
+                          CE
+                        </td><td class="u-text-char ">
+                          0.344&nbsp;±&nbsp;0.016
+                        </td><td class="u-text-char ">
+                          0.349&nbsp;±&nbsp;0.012
+                        </td><td class="u-text-char ">
+                          0.402&nbsp;±&nbsp;0.019
+                        </td><td class="u-text-char ">
+                          0.396&nbsp;±&nbsp;0.024
+                        </td><td class="u-text-char ">
+                          0.406&nbsp;±&nbsp;0.022
+                        </td></tr><tr><td class="u-text-left ">
+                          HD
+                        </td><td class="u-text-char ">
+                          15.8&nbsp;±&nbsp;18.8
+                        </td><td class="u-text-char ">
+                          15.5&nbsp;±&nbsp;17.6
+                        </td><td class="u-text-char ">
+                          19.1&nbsp;±&nbsp;16.2
+                        </td><td class="u-text-char ">
+                          18.3&nbsp;±&nbsp;16.9
+                        </td><td class="u-text-char ">
+                          18.7&nbsp;±&nbsp;17.8
+                        </td></tr></tbody></table></div>
 
 </p>
 <p >
 <em>Fig. 2. Rendered regions of the TB (gray) featuring manually annotated negative volume (yellow),
 and a machine-generated one (green). Views: (a) axial, from bottom (b) same, tilted.</em>
 </p>
-  
+
+
 ## Citing
 If you use this package in your publications or in other work, please cite it as follows:
 ```
