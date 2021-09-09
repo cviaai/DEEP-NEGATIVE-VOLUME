@@ -191,7 +191,7 @@ needs MC and TB masks.</em>
                           18.7&nbsp;±&nbsp;17.8
                         </td></tr></tbody></table></div>
 
-<p align="center">
+<p align="left">
 <img src="./img/results.PNG" alt>
 
 </p>
