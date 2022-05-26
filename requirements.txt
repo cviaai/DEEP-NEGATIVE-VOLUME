@@ -62,7 +62,7 @@ tensorboardX==1.4
 tifffile==2020.2.16
 torchsummary==1.5.1
 trimesh==3.2.36
-ujson==1.35
+ujson==5.2.0
 vtk==8.1.2
 webcolors==1.9.1
 xgboost==0.81
