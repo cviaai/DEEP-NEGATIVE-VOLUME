@@ -63,7 +63,7 @@ tifffile==2020.2.16
 torchsummary==1.5.1
 trimesh==3.2.36
 ujson==1.35
-vtk==8.1.2
+vtk==9.0.1
 webcolors==1.9.1
 xgboost==0.81
 xlrd==1.2.0
